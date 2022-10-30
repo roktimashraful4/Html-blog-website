@@ -1,0 +1,77 @@
+/* Teblet  layout*/
+
+@media only screen  and (min-width: 200px) and (max-width:991px){
+	.social_area {
+	max-width: 460px;
+}
+	.inner_menu {
+	background: none;
+}
+	.inner_menu::after{
+		display:  none;
+	}
+	.inner_menu{
+		padding: 0;
+	}
+	.header_ariea{
+		clear: both;
+	}
+	.inner-header{
+		padding: 20px 0;
+	}
+	#benner_area{
+		margin-top:0px; 
+	}
+	
+	.bennter_text h2{
+		font-size: 50px;
+	}
+	#main_content_area{
+		padding: 0;
+	}
+	.content_head h2{
+		margin: 35px 0;
+	}
+	.servises_discription{
+		width: 60%;
+	}
+
+	}
+
+	/* mobile  layout*/
+@media only screen  and (min-width: 200px) and (max-width:480px){
+
+		.mini-memu{
+		width: 100%;
+		margin-bottom: 10px; 
+	}
+	.mini-memu ul{
+		text-align: center;
+	}
+	.serch-item {
+	width: 250px;
+	float: none;
+	margin: 0 auto;
+}
+.social_area ul{text-align: center}
+.benner_img_area{
+	width: 100%;
+	float: none;
+} 
+.bennter_text {
+	float: none;
+	width: 98%;
+	 margin-top: 0px; 
+}
+	.content_area {
+	width: 100%;
+	float: none;
+	 margin: 0 ; 
+}
+.footer_child {
+	width: 100%;
+	float: none;
+	 margin: 0 ; 
+}
+
+}
